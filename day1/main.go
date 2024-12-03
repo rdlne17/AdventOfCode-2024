@@ -21,7 +21,7 @@ func main() {
 		lines = append(lines, line)
 	}
 
-	fmt.Printf("Day 1 solution: %d\n", day1(lines))
-	fmt.Printf("Day 2 solution: %d\n", day2(lines))
+	fmt.Printf("Day 1 solution: %d\n", sol1(lines))
+	fmt.Printf("Day 2 solution: %d\n", sol2(lines))
 
 }

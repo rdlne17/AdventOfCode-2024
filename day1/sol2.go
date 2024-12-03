@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func day2(lines []string) int {
+func sol2(lines []string) int {
 
 	var first, second []int
 	ret := 0
