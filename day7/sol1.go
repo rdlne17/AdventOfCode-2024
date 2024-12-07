@@ -47,6 +47,10 @@ func is_possible1(target_sum int64, nums []int64, running_total int64, nums_pos,
 
 	}
 
+	if running_total > target_sum {
+		return false
+	}
+
 	if nums_pos == len(nums)-1 {
 		if target_sum == running_total {
 			return true
